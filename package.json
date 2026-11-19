@@ -1,0 +1,10 @@
+{
+  "name": "web-project-ci",
+  "version": "1.0.0",
+  "description": "Web project for GitHub Actions",
+  "scripts": {
+    "test": "node --test",
+    "lint": "node --check test.js",
+    "build": "node --check test.js"
+  }
+}
