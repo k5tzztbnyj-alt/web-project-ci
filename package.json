@@ -5,6 +5,6 @@
   "scripts": {
     "test": "node --test",
     "lint": "node --check test.js",
-    "build": "node --check test.js"
+    "build": "mkdir -p dist && cp index.html dist/index.html"
   }
 }
